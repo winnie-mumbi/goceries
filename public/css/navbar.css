@@ -1,0 +1,90 @@
+.pb-1, .py-1 {
+    padding-bottom: 0.25rem !important;
+}
+
+.pt-1, .py-1 {
+    padding-top: 0.25rem !important;
+}
+
+.topper {
+    font-size: 11px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.topper .text {
+    color: white;
+}
+
+.topper .icon span {
+    color: #fff;
+}
+.d-flex {
+    display:flex;
+}
+
+.mr-2, .mx-2 {
+    margin-right: 0.5rem !important;
+}
+
+.navbar {
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    color: #82ae46;
+}
+
+.navbar-collapse {
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+    font-size: 11px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 1 !important;
+}
+
+@media (max-width: 767.98px) {
+.topper {
+    margin-bottom: 10px;
+}
+.row {
+    flex-wrap:wrap;
+}
+
+
+}
