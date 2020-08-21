@@ -17,15 +17,11 @@ class ProductsController extends Controller
     {
         $products = Item::all();
         
-        // $response["items"] = $products;
+        $response["items"] = $products;
 
-        // $items = response()->json($response);
-
-        // foreach($products as $item) {
-        //     return $item->price;
-        // }
-
-        return view('pages.shop',['products'=>$products]);
+        return response()->json($response);
+        
+        // return view('pages.shop',['products'=>$products]);
     }
 
     /**
